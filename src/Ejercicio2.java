@@ -1,14 +1,10 @@
 public class Ejercicio2 {
     
+    int numberOfLateDeliveries;
+
     int getRating() {
 
-        return moreThanFiveLateDeliveries() ? 2 : 1;
-    
-      }
-    
-      boolean moreThanFiveLateDeliveries() {
-        int numberOfLateDeliveries=0;
-        return numberOfLateDeliveries > 5;
+        return numberOfLateDeliveries > 5 ? 2 : 1;
     
       }
 
